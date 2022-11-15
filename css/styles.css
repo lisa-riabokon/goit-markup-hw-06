@@ -511,11 +511,7 @@ body {
 }
 
 .footer-sign-up {
-  margin-left: 93px;
-}
-
-.online-form {
-  display: flex;
+  margin-left: auto;
 }
 
 .wrap-input {
@@ -812,6 +808,14 @@ body {
   margin-bottom: 10px;
 }
 
+.modal-comment {
+  margin-bottom: 20px;
+}
+
+.modal-checkbox {
+  margin-bottom: 30px;
+}
+
 .modal-input:focus {
   border-color: var(--accent-color);
 }
@@ -883,6 +887,7 @@ body {
   color: var(--secondary-text-color);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .agree-link {
@@ -911,7 +916,4 @@ body {
 
 .input-check:checked + .check-text span {
   border-color: var(--accent-color);
-}
-.input-check {
-  margin-top: 10px;
 }
